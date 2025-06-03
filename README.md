@@ -1,0 +1,2 @@
+# restaurante
+Ejercicio JavaScript "if"
