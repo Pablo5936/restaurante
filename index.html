@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <meta name="autor" content="Juan Pablo Torres Rios">
+  <title>Menú</title>
+</head>
+
+<body>
+  <header>
+    <div><img src="./img/logo.png" alt="logo" id="logo"></div>
+    <div id="menu">
+      <p clas="parrafo1">MENÚ</p>
+      <img src="./img/menu.svg" alt="menu" class="imagenmenu">
+    </div>
+  </header>
+  <main>
+    <img src="./img/header.png" alt="fachada" class="fachada">
+    <p class="fecha">Desde 2001</p>
+    <div class="nombre">
+      <img src="./img/triangulo.png" alt="">
+      <h1>RESTAURANTE DE LA TORRE</h1>
+      <img src="./img/triangulo 2.png" alt="">
+    </div>
+    <section>
+      <p><strong>El restaurante De la Torre</strong> se encuentra en una encantadora masía catalana situada en las
+        afueras
+        de Barcelona, rodeada de naturaleza y tranquilidad. <b>Fundado en el año 2001</b>, en esta antigua construcción
+        que ha sido cuidadosamente restaurada para conservar la esencia rústica y el encanto de las masías
+        tradicionales,
+        combinando historia, elegancia y calidez.</p>
+      <p>El ambiente acogedor de <strong>De la Torre</strong>, con sus muros de piedra, techos de madera y amplios
+        jardines, ofrece el escenario perfecto para disfrutar de una experiencia gastronómica inolvidable. Su cocina se
+        inspira en la tradición mediterránea, con toques contemporáneos que respetan el producto local y de temporada.
+      </p>
+      <p>Tras más de dos décadas de dedicación y pasión por la buena mesa, <strong>De la Torre</strong> se ha
+        consolidado
+        como un punto de encuentro para los amantes de la cocina auténtica, y un lugar emblemático donde la tradición y
+        la
+        naturaleza se dan la mano a solo unos minutos del bullicio de la ciudad.</p>
+    </section>
+    <div class="platos">
+      <img src="./img/entrecot.png" alt="Entrecot"><img src="./img/macarrones.png" alt="Macarrones"><img
+        src="./img/risotto.png" alt="Risotto"><img src="./img/albondigas.png" alt="Albondigas">
+    </div>
+    <p class="fecha">Cocina mediterránea y de mercado</p>
+    <div class="nuestrosplatos">
+      <img src="./img/triangulo.png" alt="">
+      <h2>NUESTROS PLATOS</h2>
+      <img src="./img/triangulo 2.png" alt="">
+    </div>
+    <p>"Una cuidada selección de recetas que combinan tradición y creatividad, <br> elaboradas con productos frescos de
+      temporada y todo el sabor de nuestra cocina mediterránea."</p>
+    <p><b>Seleccione el plato que desea ordenar y después indique por favor las siguientes
+        preferencias/intolerancias:</b>
+    </p>
+    <section class="seccionmenu">
+      <ul>
+        <li><label for="entrecot" id="entrecot1"><input type="radio" name="plato" id="entrecot">Entrecot de
+            ternera</label>
+        </li>
+        <li><label for="macarrones" id="macarrones1"><input type="radio" name="plato" id="macarrones">Macarrones al
+            Pesto</label></li>
+        <li><label for="risotto" id="risotto1"><input type="radio" name="plato" id="risotto">Risotto cremoso a la
+            parmesana</label></li>
+        <li><label for="albondigas" id="albondigas1"><input type="radio" name="plato" id="albondigas">Albóndigas de
+            coliflor
+            con
+            tomate</label></li>
+      </ul>
+      <ul>
+        <li><label for="vegano"><input type="checkbox" id="vegano">Es vegano</label></li>
+        <li><label for="gluten"><input type="checkbox" id="gluten">Intolerancia al gluten</label></li>
+        <li><label for="lactosa"><input type="checkbox" id="lactosa">Intolerancia a la lactosa</label></li>
+      </ul>
+    </section>
+    <button onclick="ordenar()">Ordenar</button>
+    <p id="mensaje"></p>
+    <div class="eventos">
+      <img src="./img/triangulo.png" alt="">
+      <h2>EVENTOS</h2>
+      <img src="./img/triangulo 2.png" alt="">
+    </div>
+    <p>Celebra tus momentos más especiales en un entorno único.</p>
+    <p>En De la Torre organizamos bodas, cumpleaños, aniversarios y todo tipo de celebraciones <br> en una masía con
+      encanto, rodeada de naturaleza y con espacios adaptados a cada ocasión. <br> Cuidamos cada detalle para que vivas
+      una
+      experiencia inolvidable junto a quienes más quieres.</p>
+    <div class="fotoeventos"><img src="./img/evento1.png" alt="evento" class="fotoevento">
+      <img src="./img/evento2.png" alt="" class="fotoevento">
+    </div>
+  </main>
+  <footer>
+    <div class="social">
+      <a href="https://www.instagram.com/" target="_blank"><img src="./img/instagram.png" alt="instagram"></a>
+      <a href="https://www.facebook.com/" target="_blank"><img src="./img/facebook.png" alt="facebook"></a>
+      <a href="https://x.com/" target="_blank"><img src="./img/x.png" alt="X"></a>
+      <a href="https://www.tiktok.com/" target="_blank"><img src="./img/tiktok.png" alt="tiktok"></a>
+    </div>
+    <div class="derechos">
+      <p> © 2025 Restaurante De la Torre. Todos los derechos reservados.</p>
+      <p> Desarrollado por [&nbsp; Juan Pablo Torres Rios &nbsp;]</p>
+    </div>
+    <div class="legal">
+      <button>[Aviso legal]</button> - <button>[Política de privacidad]</button> - <button>[Política
+        de cookies]</button>
+    </div>
+  </footer>
+
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
